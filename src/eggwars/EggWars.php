@@ -12,7 +12,7 @@
 
 declare(strict_types=1);
 
-namespace BedWars;
+namespace eggwars;
 
 use eggwars\commands\EggWarsCommand;
 use eggwars\commands\TeamCommand;
