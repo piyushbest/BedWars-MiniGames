@@ -1,0 +1,47 @@
+name: BedWars
+api: [4.0.0, 3.0.0]
+version: 1.0.0
+author: VixikCZ, piyushbest
+main: eggwars\EggWars
+description: BedWars minigame plugin
+load: POSTWORLD
+
+permissions:
+  ew.cmd:
+    description: Permission for ALL EggWars Commands
+    default: op
+    children:
+      ew.cmd.vote:
+        default: true
+        description: Permission for /vote
+      ew.cmd.team:
+        default: true
+        description: Permission for /team
+      ew.cmd.help:
+        default: op
+        description: Permission to /ew help
+      ew.cmd.create:
+        default: op
+        description: Permission to /ew create
+      ew.cmd.arenas:
+        default: op
+        description: Permission to /ew arenas
+      ew.cmd.set:
+        default: op
+        description: Permission to /ew set
+      ew.cmd.info:
+        default: true
+        description: Permission to /ew info
+      ew.cmd.shop:
+        default: true
+        description: Permission to /ew shop
+      ew.cmd.level:
+        default: op
+        description: Permissions for level commands
+        children:
+          ew.cmd.level.add:
+            default: op
+            description: Permission to /ew level add
+          ew.cmd.level.set:
+            default: op
+            description: Permission to /ew level set
