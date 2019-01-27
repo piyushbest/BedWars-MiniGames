@@ -7,41 +7,41 @@ description: BedWars minigame plugin
 load: POSTWORLD
 
 permissions:
-  ew.cmd:
+  bw.cmd:
     description: Permission for ALL EggWars Commands
     default: op
     children:
-      ew.cmd.vote:
+      bw.cmd.vote:
         default: true
         description: Permission for /vote
-      ew.cmd.team:
+      bw.cmd.team:
         default: true
         description: Permission for /team
-      ew.cmd.help:
+      bw.cmd.help:
         default: op
         description: Permission to /ew help
-      ew.cmd.create:
+      bw.cmd.create:
         default: op
         description: Permission to /ew create
-      ew.cmd.arenas:
+      bw.cmd.arenas:
         default: op
         description: Permission to /ew arenas
-      ew.cmd.set:
+      bw.cmd.set:
         default: op
         description: Permission to /ew set
-      ew.cmd.info:
+      bw.cmd.info:
         default: true
         description: Permission to /ew info
-      ew.cmd.shop:
+      bw.cmd.shop:
         default: true
         description: Permission to /ew shop
-      ew.cmd.level:
+      bw.cmd.level:
         default: op
         description: Permissions for level commands
         children:
-          ew.cmd.level.add:
+          bw.cmd.level.add:
             default: op
             description: Permission to /ew level add
-          ew.cmd.level.set:
+          bw.cmd.level.set:
             default: op
             description: Permission to /ew level set
