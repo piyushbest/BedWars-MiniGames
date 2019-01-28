@@ -41,7 +41,7 @@ class ArenaManager extends ConfigManager {
     public function createArena(string $name) {
         if($this->arenaExists($name)) {
             $this->getPlugin()->getLogger()->critical("Arena already exists!");
-            return null;
+            return $this->arenaManager;
         }
 
         $data = $this->defaultArenaData;
