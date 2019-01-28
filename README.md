@@ -16,3 +16,4 @@ BedWars converting Eggwars plugin to bedwars
 
 # Info
 -**Lasted Phars [here](https://poggit.pmmp.io/ci/piyushbest/BedWars-MiniGames)**
+-**Discord soon**
