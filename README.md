@@ -12,3 +12,7 @@ BedWars converting Eggwars plugin to bedwars
 5•specctor [×]
 
 6•item spawner [√]
+
+
+# Info
+-**Lasted Phars [here](https://poggit.pmmp.io/ci/piyushbest/BedWars-MiniGames)**
