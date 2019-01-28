@@ -29,10 +29,10 @@
 # ---------- ==== [ Main configuration: ] ==== ---------- #
 
 # Disable / Enable prefix
-enable-prefix: true
+enable-prefix: false
 
 # Main prefix
-prefix: "§3[Bedwars]"
+prefix: "§3[Eggwars]"
 
 # Change language here:
 # available languages: eng (English)
