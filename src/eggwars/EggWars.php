@@ -98,7 +98,7 @@ class EggWars extends PluginBase {
      * @return ArenaManager $arenaManager
      */
     public function getArenaManager(): ArenaManager {
-        return $this->arenaManager;
+        return null;
     }
 
     /**
